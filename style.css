@@ -181,7 +181,34 @@ section {
     color: #474747;
     margin-bottom: 10px;
 }
-.resume-button{
+
+.resume-button {
     text-align: center;
     margin-top: 50px;
+}
+
+/* Contact Section */
+.contact .section-title {
+    text-align: left;
+}
+
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 230px;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+
+}
+
+.contact a {
+    text-decoration: none;
 }
