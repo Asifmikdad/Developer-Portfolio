@@ -83,6 +83,7 @@ main {
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
+    text-align: center;
 
 }
 
@@ -95,4 +96,17 @@ main {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
 }
